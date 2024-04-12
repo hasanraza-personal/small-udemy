@@ -1,0 +1,47 @@
+.registration-container {
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  /* Sample background image link */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Semi-transparent white background for form */
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+}
+
+.registration-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.form-helper-text {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.register-button {
+  margin-top: 20px;
+}
+
+.login-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
